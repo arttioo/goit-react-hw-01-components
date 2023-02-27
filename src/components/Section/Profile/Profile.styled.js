@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SectionProfile = styled.div`
 border: 1px solid green;
-  border-radius: 4px;
+  border-radius: 5px;
   text-align: center;
   max-width: 300px;
   
