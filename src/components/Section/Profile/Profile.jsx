@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import {
   SectionProfile,
- 
   ProfileAvatar,
   Thumb,
   List,
@@ -54,5 +53,5 @@ Profile.propTypes = {
     followers: PropTypes.number.isRequired,
     views: PropTypes.number.isRequired,
     likes: PropTypes.number.isRequired,
-  }),
+  }).isRequired,
 };
