@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { List, Status } from './FriendListItem.styled';
+
 export const FriendListItem = ({ avatar, name, isOnline, id }) => {
   return (
     <List key={id}>
